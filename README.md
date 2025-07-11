@@ -1,8 +1,6 @@
 # cansat_modeling
 
-This repository contains a Python-based simulator to model the descent trajectory of a CanSat (or similar system) from high altitude, considering different types of wind and varying levels of lateral control (`GR`). The simulation uses a physics-based approach including air resistance and orientation manipulation to observe landing dispersion and descent paths. The equations are obtained from the following research: 
-
-Fields, T. D., & Yakimenko, O. A. (2017, June 7). The use of a steerable single-actuator cruciform parachute for targeted payload return. IEEE Aerospace Conference Proceedings. https://doi.org/10.1109/AERO.2017.7943787
+This repository contains a Python-based simulator to model the descent trajectory of a CanSat (or similar system) from high altitude, considering different types of wind and varying levels of lateral control (`GR`). The simulation uses a physics-based approach including air resistance and orientation manipulation to observe landing dispersion and descent paths. 
 
 ### Code Structure
 
@@ -53,4 +51,10 @@ These metrics are automatically aggregated in a DataFrame for analysis.
 
 ### Credits and Purpose
 
-This project was developed for educational and scientific exploration, especially to visualize how different wind types affect the dispersion of a satellite with limited control capabilities.
+This project was developed for educational and scientific exploration, especially to visualize how different wind types affect the dispersion of a satellite with limited control capabilities. 
+
+This simulator is part of an educational framework for teaching physics including a CanSAt implementation proposed by Cristian Tobar, Nelson Guevara, Jairo Marin, Ricardo Trullo, Stibel Camayo, Maicol Pacheco, Angie Montilla and Diego Ramirez
+
+The equations of the 'dropping()' function are obtained from the following research: 
+
+Fields, T. D., & Yakimenko, O. A. (2017, June 7). The use of a steerable single-actuator cruciform parachute for targeted payload return. IEEE Aerospace Conference Proceedings. https://doi.org/10.1109/AERO.2017.7943787
