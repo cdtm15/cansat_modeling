@@ -2,6 +2,8 @@
 
 This repository contains a Python-based simulator to model the descent trajectory of a CanSat (or similar system) from high altitude, considering different types of wind and varying levels of lateral control (`GR`). The simulation uses a physics-based approach including air resistance and orientation manipulation to observe landing dispersion and descent paths. 
 
+![Fall simulation visualization](https://github.com/cdtm15/cansat_modeling/blob/main/Captura%20de%20pantalla%202025-12-06%20a%20la(s)%205.06.16%E2%80%AFp.m..png)
+
 ### Code Structure
 
 - `dropping()`: Main simulation function. Executes multiple drop attempts with active manipulation under selected wind conditions.
@@ -43,6 +45,8 @@ These metrics are automatically aggregated in a DataFrame for analysis.
 - 3D trajectories for each combination of control level (`GR`) and wind type.
 - 2D landing points, colored by `GR` value.
 - 3x3 subplot grid to visually compare all scenarios.
+
+
 
 ### Files
 
